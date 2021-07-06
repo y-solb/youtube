@@ -1,0 +1,25 @@
+.container {
+  cursor: pointer;
+  padding: 0.5rem;
+  width: 23.5rem;
+  height: 25%;
+}
+
+.video {
+  display: flex;
+  flex-direction: column;
+}
+
+.title,
+.channeltitle {
+  margin: 0.4rem 0;
+  font-size: 0.875rem;
+}
+
+.title {
+  color: #030303;
+}
+
+.channeltitle {
+  color: #606060;
+}
