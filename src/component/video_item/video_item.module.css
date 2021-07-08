@@ -1,13 +1,36 @@
 .container {
   cursor: pointer;
   padding: 0.5rem;
+}
+
+.container.grid {
   width: 23.5rem;
   height: 25%;
 }
 
-.video {
+.container.grid:nth-child(-n + 4) {
+  margin-top: 0.5rem;
+}
+
+.container.list {
+  width: 100%;
+  padding-right: 4rem;
+}
+
+.video.grid {
   display: flex;
   flex-direction: column;
+}
+
+.video.list {
+  display: flex;
+  flex-direction: row;
+}
+
+.thumbnail.list {
+  width: 168px;
+  height: 94px;
+  margin-right: 0.5rem;
 }
 
 .title,
@@ -18,6 +41,10 @@
 
 .title {
   color: #030303;
+}
+
+.title.list {
+  margin: 0;
 }
 
 .channeltitle {
