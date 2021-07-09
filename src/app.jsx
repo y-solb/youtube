@@ -11,7 +11,10 @@ function App({ youtube }) {
   const search = (txt) => {
     youtube
       .search(txt)
-      .then((videos) => setVideos(videos))
+      .then((videos) => {
+        setVideos(videos);
+        setSelectedVideo(null);
+      })
       .catch((error) => console.log('error', error));
   };
 
