@@ -23,7 +23,7 @@ function App({ youtube }) {
       .mostPopular()
       .then((videos) => setVideos(videos))
       .catch((error) => console.log('error', error));
-  }, []);
+  }, [youtube]);
 
   const selectVideo = (video) => {
     setSelectedVideo(video);
