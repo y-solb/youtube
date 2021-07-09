@@ -1,6 +1,9 @@
 .app {
-  display: flex;
   padding-top: 3.5rem;
+}
+
+.content {
+  display: flex;
 }
 
 .detail {
