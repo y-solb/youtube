@@ -10,8 +10,8 @@
 }
 
 .logo {
-  width: 5.1rem;
-  height: 1.5rem;
+  width: 90px;
+  height: 24px;
   display: flex;
   align-items: center;
   margin: 5px 0;
@@ -28,6 +28,7 @@
 
 .searchInput {
   width: 100%;
+  min-width: 124px;
   height: 1.8rem;
   border: none;
 }
